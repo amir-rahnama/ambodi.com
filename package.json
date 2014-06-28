@@ -1,0 +1,22 @@
+{
+  "name": "ambodi.com",
+  "version": "0.0.0",
+  "description": "Amir Hossein Rahnama's Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "less": "~1.7.3" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ambodi/ambodi.com.git"
+  },
+  "author": "Amir Hossein Rahnama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambodi/ambodi.com/issues"
+  },
+  "homepage": "https://github.com/ambodi/ambodi.com"
+}
