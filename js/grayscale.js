@@ -1,4 +1,4 @@
-//jQuery to collapse the navbar on scroll
+    //jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -21,7 +21,7 @@ $(function() {
 //Google Map Skin - Get more at http://snazzymaps.com/
 var myOptions = {
     zoom: 15,
-    center: new google.maps.LatLng(53.385873, -1.471471),
+    center: new google.maps.LatLng(59.311579, 18.077770),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: true,
     styles: [{
@@ -134,4 +134,11 @@ var myOptions = {
     }]
 };
 
+
 var map = new google.maps.Map(document.getElementById('map'), myOptions);
+var marker = new google.maps.Marker({
+    position: new google.maps.LatLng(59.311579, 18.077770),
+    map: map,
+    title:"My apartment"
+});
+
