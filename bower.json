@@ -1,0 +1,18 @@
+{
+    "name": "ambodi.com",
+    "version": "0.0.0",
+    "homepage": "https://github.com/ambodi/ambodi.com",
+    "authors": [
+        "ambodi <amir.rahnama@gmail.com>"
+    ],
+    "description": "My personal website www.ambodi.com",
+    "main": "index.html",
+    "license": "MIT",
+    "dependencies": {},
+    "ignore": [
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
