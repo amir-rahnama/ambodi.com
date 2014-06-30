@@ -8,7 +8,9 @@
     "description": "My personal website www.ambodi.com",
     "main": "index.html",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+    	"jquery.easing": "git@github.com:jozefizso/bower-jquery-easing.git"
+    	},
     "ignore": [
         "node_modules",
         "bower_components",
