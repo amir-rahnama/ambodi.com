@@ -156,4 +156,4 @@
 
     ga('create', 'UA-52502008-1', 'auto');
     ga('send', 'pageview');
-    ga(‘set’, ‘&uid’, {{'GEN_PUBLIC_AMBODI_DOT_COM'}}); // Set the user ID using signed-in user_id.
+    ga('se', '&uid', 'GEN_PUBLIC_AMBODI_DOT_COM'); // Set the user ID using signed-in user_id.
