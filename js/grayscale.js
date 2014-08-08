@@ -137,9 +137,9 @@
 
     var map = new google.maps.Map(document.getElementById('map'), myOptions);
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(59.311579, 18.077770),
+        position: new google.maps.LatLng(59.311801, 18.065325),
         map: map,
-        title: "My apartment"
+        title: "I live in Södermalm, Stockholm."
     });
 
     (function(i, s, o, g, r, a, m) {
